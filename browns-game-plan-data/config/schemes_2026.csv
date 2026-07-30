@@ -1,0 +1,34 @@
+team,offense_family,offense_run_family,offense_personnel,defense_front,defense_coverage_family,pressure_style,confidence,as_of_date,source_note
+ARI,West Coast / Shanahan,wide-zone,11/12,odd multiple,split-safety zone,simulated pressure,medium,2026-07-28,Coach-lineage preseason classification; verify after four games
+ATL,West Coast / Shanahan,wide-zone,11/12,even multiple,match zone,selective pressure,medium,2026-07-28,Coach-lineage preseason classification; verify after four games
+BAL,West Coast multiple,gap and zone,12/21,3-4 multiple,quarters/man match,simulated pressure,medium,2026-07-28,Updated for 2026 staff; verify after four games
+BUF,West Coast spread,inside/outside zone,11,4-2-5 multiple,zone match,simulated pressure,medium,2026-07-28,Updated for 2026 staff; verify after four games
+CAR,West Coast spread,inside/outside zone,11/12,3-4 multiple,split-safety match,simulated pressure,medium,2026-07-28,Coach-lineage preseason classification; verify after four games
+CHI,West Coast / motion,wide-zone and gap,11/12,4-2-5 multiple,zone match,selective pressure,medium,2026-07-28,Coach-lineage preseason classification; verify after four games
+CIN,West Coast spread,inside zone,11,4-2-5,split-safety zone,selective pressure,medium,2026-07-28,Coach-lineage preseason classification; verify after four games
+CLE,West Coast / play-action,wide-zone and gap,12/21,4-2-5 attacking,man-match,front-four pressure,medium,2026-07-28,Updated for 2026 staff; verify after four games
+DAL,West Coast / McCarthy,inside zone and gap,11,even multiple,zone match,selective pressure,medium,2026-07-28,Updated for 2026 staff; verify after four games
+DEN,West Coast / Payton,duo and zone,11/12,3-4 multiple,man-match,pressure heavy,high,2026-07-28,Continuity classification
+DET,West Coast / play-action,gap and zone,11/12,4-2-5,man-match,pressure selective,medium,2026-07-28,Updated for 2026 coordinator; verify after four games
+GB,West Coast / Shanahan,wide-zone and gap,11/12,4-2-5 multiple,quarters match,simulated pressure,medium,2026-07-28,Updated for 2026 coordinator; verify after four games
+HOU,West Coast / Shanahan,wide-zone,11/12,4-2-5,quarters/cover-3,front-four pressure,high,2026-07-28,Continuity classification
+IND,Spread / RPO,inside zone,11,4-2-5,quarters match,simulated pressure,medium,2026-07-28,Coach-lineage preseason classification; verify after four games
+JAX,West Coast spread,wide-zone,11,4-2-5,split-safety zone,simulated pressure,medium,2026-07-28,Coach-lineage preseason classification; verify after four games
+KC,West Coast spread,gap and zone,11/12,4-2-5 multiple,man-match,pressure heavy,high,2026-07-28,Continuity classification
+LA,West Coast / McVay,wide-zone and gap,11/12,3-4 multiple,quarters match,simulated pressure,high,2026-07-28,Continuity classification
+LAC,West Coast / play-action,gap and power,12/21,3-4 multiple,split-safety match,simulated pressure,medium,2026-07-28,Updated for 2026 staff; verify after four games
+LV,West Coast / Kubiak,wide-zone,12/21,3-4 attacking,match zone,pressure selective,medium,2026-07-28,New 2026 staff; verify after four games
+MIA,West Coast / Shanahan,wide-zone,11/21,3-4 multiple,quarters match,simulated pressure,medium,2026-07-28,Updated for 2026 staff; verify after four games
+MIN,West Coast / McVay,wide-zone,11/12,3-4 multiple,man-match,pressure heavy,high,2026-07-28,Continuity classification
+NE,Erhardt-Perkins / spread,gap and option,11/12,even multiple,man-match,simulated pressure,medium,2026-07-28,Coach-lineage preseason classification; verify after four games
+NO,West Coast / motion,wide-zone and gap,11/12,4-2-5,quarters/cover-3,front-four pressure,medium,2026-07-28,Coach-lineage preseason classification; verify after four games
+NYG,Spread / West Coast,inside zone and gap,11,3-4 multiple,man-match,pressure heavy,medium,2026-07-28,Coach-lineage preseason classification; verify after four games
+NYJ,West Coast / Shanahan,wide-zone,11/12,4-2-5,quarters/cover-3,front-four pressure,medium,2026-07-28,Coach-lineage preseason classification; verify after four games
+PHI,West Coast / RPO,inside zone and gap,11/12,3-4 multiple,quarters match,simulated pressure,medium,2026-07-28,Updated for 2026 coordinator; verify after four games
+PIT,West Coast / McCarthy,inside zone and gap,11/12,3-4 multiple,man zone mix,pressure selective,medium,2026-07-28,New 2026 staff; verify after four games
+SEA,West Coast / play-action,wide-zone,12/21,even multiple,quarters match,simulated pressure,medium,2026-07-28,Updated for 2026 staff; verify after four games
+SF,West Coast / Shanahan,wide-zone,21/12,4-2-5,quarters/cover-3,front-four pressure,high,2026-07-28,Continuity classification
+TB,West Coast spread,inside/outside zone,11,3-4 multiple,zone match,pressure heavy,medium,2026-07-28,Coach-lineage preseason classification; verify after four games
+TEN,West Coast / play-action,wide-zone and gap,11/12,3-4 multiple,split-safety match,simulated pressure,medium,2026-07-28,Updated for 2026 staff; verify after four games
+WAS,West Coast spread,inside zone,11,4-2-5,man-match,pressure heavy,medium,2026-07-28,Coach-lineage preseason classification; verify after four games
+
