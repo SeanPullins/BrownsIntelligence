@@ -1,0 +1,70 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Evidence-backed Cleveland Browns opponent scouting and game planning." />
+  <title>Browns Intelligence — Game Plan</title>
+  <link rel="stylesheet" href="./assets/styles.css" />
+</head>
+<body>
+<header class="topbar">
+  <a class="brand" href="./" aria-label="Browns Intelligence home"><span class="helmet">B</span><span>BROWNS <b>INTELLIGENCE</b></span></a>
+  <div class="status"><span></span> Evolving preseason model</div>
+</header>
+<main>
+  <section class="hero">
+    <div>
+      <p class="eyebrow">2026 • WEEK 1 • SEPTEMBER 13</p>
+      <h1>Cleveland at Jacksonville</h1>
+      <p class="lede">A transparent, evidence-backed game plan built from historical NFL play data and updated as 2026 personnel and availability become reliable.</p>
+    </div>
+    <div class="score-card">
+      <p>Historical baseline</p><strong>26.6%</strong><span>Browns win probability</span>
+      <small>Not a final Week 1 forecast</small>
+    </div>
+  </section>
+
+  <nav class="tabs" aria-label="Dashboard sections">
+    <button class="active" data-tab="plan">Game plan</button>
+    <button data-tab="model">Model</button>
+    <button data-tab="data">Data status</button>
+  </nav>
+
+  <section id="plan" class="panel active">
+    <div class="section-title"><div><p class="eyebrow">HOW CLEVELAND WINS</p><h2>Create easy throws, then win without blitzing</h2></div><span class="badge amber">Preseason hypothesis</span></div>
+    <div class="grid">
+      <article class="card priority"><div class="rank">01</div><div><p class="eyebrow">OFFENSE</p><h3>Build around play action</h3><p>Use run-action to simplify reads, change launch points and attack linebackers before asking the passing game to win obvious dropback downs.</p><div class="metrics"><span><b>2025 evidence</b> final</span><span><b>Context</b> opponent-adjusted</span></div></div></article>
+      <article class="card priority"><div class="rank">02</div><div><p class="eyebrow">DEFENSE</p><h3>Generate pressure with four</h3><p>Keep seven in coverage when possible. Make Jacksonville sustain drives and reserve simulated pressure for high-leverage situations.</p><div class="metrics"><span><b>Evidence</b> traceable plays</span><span><b>Confidence</b> evolving</span></div></div></article>
+      <article class="card"><p class="eyebrow">MODEL GUARDRAIL</p><h3>No false precision</h3><p>The forecast remains withheld when current lineup, injury, usage or scheme coverage is below the required threshold.</p></article>
+      <article class="card"><p class="eyebrow">NEXT UPDATE</p><h3>Training camp inputs</h3><p>Projected starters, unit rotations, transactions, practice participation and role changes will progressively replace broad assumptions.</p></article>
+    </div>
+  </section>
+
+  <section id="model" class="panel">
+    <div class="section-title"><div><p class="eyebrow">PREDICTIVE ENGINE</p><h2>Useful baseline, deliberately unfinished forecast</h2></div></div>
+    <div class="grid stats">
+      <article class="card"><strong>7</strong><span>seasons trained</span></article>
+      <article class="card"><strong>1,693</strong><span>pregame examples</span></article>
+      <article class="card"><strong>0.689</strong><span>2025 test AUC</span></article>
+      <article class="card"><strong>0.222</strong><span>2025 Brier score</span></article>
+    </div>
+    <article class="card note"><h3>What that means</h3><p>The model separates winners from losers meaningfully better than chance and improves probability error over a constant guess. It is a starting point—not proof that every recommendation will work.</p></article>
+  </section>
+
+  <section id="data" class="panel">
+    <div class="section-title"><div><p class="eyebrow">READINESS</p><h2>Final evidence vs. evolving inputs</h2></div></div>
+    <div class="feed-list">
+      <div><span class="dot green"></span><b>2025 play-by-play</b><em>Final</em></div>
+      <div><span class="dot green"></span><b>Historical game model</b><em>Validated</em></div>
+      <div><span class="dot orange"></span><b>2026 rosters & depth</b><em>Evolving</em></div>
+      <div><span class="dot orange"></span><b>2026 schemes & usage</b><em>Evolving</em></div>
+      <div><span class="dot gray"></span><b>Week 1 injuries & weather</b><em>Pending</em></div>
+    </div>
+    <article class="card note"><h3>Refresh policy</h3><p>Inputs are stored as dated snapshots with source, effective date and confidence. Missing or stale data lowers readiness and can veto the public forecast.</p></article>
+  </section>
+</main>
+<footer><span>Browns Intelligence</span><span>Independent analysis • Not affiliated with the Cleveland Browns or NFL</span></footer>
+<script src="./assets/app.js"></script>
+</body>
+</html>
