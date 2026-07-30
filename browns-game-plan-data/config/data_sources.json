@@ -1,0 +1,67 @@
+{
+  "schedules": {
+    "required": true,
+    "season": null,
+    "candidates": ["https://github.com/nflverse/nflverse-data/releases/download/schedules/games.parquet"],
+    "grain": "one game",
+    "unlocks": ["automatic opponent selection", "rest and travel context"]
+  },
+  "weekly_rosters": {
+    "required": true,
+    "season": 2025,
+    "candidates": ["https://github.com/nflverse/nflverse-data/releases/download/weekly_rosters/roster_weekly_{season}.parquet"],
+    "grain": "one player-team-week",
+    "unlocks": ["historically correct team membership", "transactions and elevations"]
+  },
+  "snap_counts": {
+    "required": false,
+    "season": 2025,
+    "candidates": ["https://github.com/nflverse/nflverse-data/releases/download/snap_counts/snap_counts_{season}.parquet"],
+    "grain": "one player-game",
+    "unlocks": ["starter and rotation inference", "unit usage"]
+  },
+  "participation": {
+    "required": false,
+    "season": 2025,
+    "candidates": [
+      "https://github.com/nflverse/nflverse-data/releases/download/pbp_participation/pbp_participation_{season}.parquet",
+      "https://github.com/nflverse/nflverse-data/releases/download/participation/participation_{season}.parquet"
+    ],
+    "grain": "one play with participating players",
+    "unlocks": ["on-field personnel", "player combinations"]
+  },
+  "ftn_charting": {
+    "required": false,
+    "season": 2025,
+    "candidates": ["https://github.com/nflverse/nflverse-data/releases/download/ftn_charting/ftn_charting_{season}.parquet"],
+    "grain": "one charted play",
+    "unlocks": ["personnel and formation", "motion, play action and RPO"]
+  },
+  "injuries": {
+    "required": false,
+    "season": 2025,
+    "candidates": ["https://github.com/nflverse/nflverse-data/releases/download/injuries/injuries_{season}.parquet"],
+    "grain": "one player-week report",
+    "unlocks": ["availability adjustments", "replacement-player splits"]
+  },
+  "player_stats": {
+    "required": false,
+    "season": 2025,
+    "candidates": [
+      "https://github.com/nflverse/nflverse-data/releases/download/stats_player/stats_player_week_{season}.parquet",
+      "https://github.com/nflverse/nflverse-data/releases/download/stats_player/player_stats_week_{season}.parquet"
+    ],
+    "grain": "one player-week",
+    "unlocks": ["trend summaries", "usage validation"]
+  },
+  "team_stats": {
+    "required": false,
+    "season": 2025,
+    "candidates": [
+      "https://github.com/nflverse/nflverse-data/releases/download/stats_team/stats_team_week_{season}.parquet",
+      "https://github.com/nflverse/nflverse-data/releases/download/stats_team/team_stats_week_{season}.parquet"
+    ],
+    "grain": "one team-week",
+    "unlocks": ["opponent trend summaries", "model cross-checks"]
+  }
+}
