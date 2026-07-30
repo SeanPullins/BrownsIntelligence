@@ -2,7 +2,7 @@
 
 Reproducible data pipeline for the Browns opponent/game-plan model.
 
-Live product: https://browns-game-plan.seanpullins.chatgpt.site
+Public dashboard: https://seanpullins.github.io/BrownsIntelligence/
 
 This repository is the evolving, reproducible data foundation. Generated NFL
 datasets are rebuilt by GitHub Actions and stored as workflow artifacts rather
