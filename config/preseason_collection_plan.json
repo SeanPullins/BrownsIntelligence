@@ -1,0 +1,40 @@
+{
+  "season_start": "2026-09-10",
+  "phases": [
+    {
+      "id": "camp",
+      "through": "2026-08-05",
+      "label": "Training camp",
+      "focus": ["transactions", "rosters", "coaches", "depth charts", "injury observations"],
+      "cadence": "daily"
+    },
+    {
+      "id": "preseason",
+      "through": "2026-08-27",
+      "label": "Preseason games",
+      "focus": ["snap counts", "participation", "formations", "personnel", "position battles"],
+      "cadence": "after every game"
+    },
+    {
+      "id": "cutdown",
+      "through": "2026-09-02",
+      "label": "Roster cutdown",
+      "focus": ["53-man roster", "waivers", "practice squad", "depth chart", "specialists"],
+      "cadence": "twice daily"
+    },
+    {
+      "id": "week_one",
+      "through": "2026-09-10",
+      "label": "Week 1 lock",
+      "focus": ["official injury reports", "practice participation", "starters", "weather", "inactive risk"],
+      "cadence": "daily"
+    }
+  ],
+  "readiness_gates": {
+    "identity": ["current_rosters", "weekly_rosters", "transactions", "coaches"],
+    "usage": ["depth_charts", "snap_counts", "participation"],
+    "scheme": ["scheme_registry", "ftn_charting", "manual_film_observations"],
+    "availability": ["injuries", "practice_reports"],
+    "context": ["schedules", "venue_weather"]
+  }
+}
