@@ -4,7 +4,7 @@ Public, evolving Browns opponent-scouting and game-plan project.
 
 **Public dashboard:** https://seanpullins.github.io/BrownsIntelligence/
 
-The site is deployed automatically through GitHub Pages after every update to `main`. It does not require a ChatGPT or GitHub login.
+The site is deployed automatically through GitHub Actions after updates to `main`. GitHub Pages must be activated once at the account/repository level before GitHub can serve the public URL. Visitors do not need a ChatGPT or GitHub login.
 
 ## Current model checkpoint
 
