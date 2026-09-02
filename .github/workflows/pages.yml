@@ -1,5 +1,7 @@
 name: Deploy public dashboard
 
+# Publish the complete repository so all static pages stay in sync.
+
 on:
   push:
     branches: [main]
